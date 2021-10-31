@@ -1,0 +1,30 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "good day", "what's up?", "how is it going?"],
+    "responses": ["Hello!", "Hey!", "What can I do for you?"]
+    },
+    {"tag": "help",
+    "patterns": ["what can I do?", "how do I use this?", "things I can do with this", "what is this for?", "what is this?"],
+    "responses": ["I'm an Intelligent chat bot that can answer your questions about the club :)! Try typing questions! \nSome examples of things I can answer: 'when's the next event?', 'when are meetings?', 'I need help with the club'" ]
+    },
+    {"tag": "info",
+    "patterns": ["what is BWiSE about?", "What is BWiSE?", "What is this club about?","what's the purpose of BWiSE?", "what does this club do?", "what does BWiSE do?"],
+    "responses": ["BWiSE is a club aiming to support underrepresented groups in STEM by creating a safe space and a positive community :). We host events aligned with this purpose in mind, so stay in touch with us to learn more!."]
+    },  
+    {"tag": "meeting",
+    "patterns": ["when's the next meeting?", "when are meetings?", "when's your next meeting?", "when can I meet officers?", "when is the next meeting?"],
+    "responses": ["Our general interest meetings are every other Monday from 2-3pm on our Discord server! Pop in to talk to BWiSE officers about any questions or suggestions you have"]
+    },
+    {"tag": "events",
+    "patterns": ["what events does BWiSE host?", "when's the next event?", "what events are coming up?"],
+    "responses": ["We currently don't have events coming up. But some our past events included speaker panels, movie screenings, and we have lots more planned out this year!"]
+    },
+    {"tag": "contact",
+    "patterns": ["I want to speak to an officer", "I need to contact an officer", "How do I contact BWiSE?", "What's BWiSE's contact?", "what's your contact information?"],
+    "responses": ["Our email is bothellwise@gmail.com. You can also send us messages on Presence or DM us directly on any of our social media platforms!"]
+    },
+    {"tag": "officers",
+    "patterns": ["Who are the officers?", "Who are the current officers?", "Who are the officers of BWiSE?"],
+    "responses": ["Our current officers are: \nAria Li - President \nAngelina Tang - Vice President \nRacquel Farrar - Social Media Graphic Design \nXingyu Liu - Secretary"]
+    }      
+]}
